@@ -1,6 +1,6 @@
-let a = 15.678;
-let b = 123.965;
-let c = 90.2345;
+const a = 15.678;
+const b = 123.965;
+const c = 90.2345;
 console.log('Максимальная цена: ' + Math.max(a, b, c));
 console.log('Минимальная цена: ' + Math.min(a, b, c));
 console.log('Суммарная стоимость товаров: ' + (a + b + c));
