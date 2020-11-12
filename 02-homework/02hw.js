@@ -18,6 +18,10 @@ while (true) {
 		console.log('Введіть ціле число!');
 		continue;
 	}
+	if(m <= n){
+		console.log('Введіть число більше ніж перше!');
+		continue;
+	}
 	break;
 }
 console.log(m);
