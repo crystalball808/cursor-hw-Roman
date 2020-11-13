@@ -1,34 +1,34 @@
-let n, m;
+let startCalc, endCalc;
 let answer = 0;
 
 while (true){
-	n = +prompt('Від якого числа складати?');
-	n = Math.trunc(n);
-	if(isNaN(n)){
+	startCalc = +prompt('Від якого числа складати?');
+	startCalc = Math.trunc(startCalc);
+	if(isNaN(startCalc)){
 		console.log('Введіть ціле число!');
 		continue;
 	}
 	break;
 }
-console.log(n);
+console.log(startCalc);
 while (true) {
-	m = +prompt('До якого числа складати?');
-	m = Math.trunc(m);
-	if(isNaN(m)){
+	endCalc = +prompt('До якого числа складати?');
+	endCalc = Math.trunc(endCalc);
+	if(isNaN(endCalc)){
 		console.log('Введіть ціле число!');
 		continue;
 	}
-	if(m <= n){
+	if(endCalc <= startCalc){
 		console.log('Введіть число більше ніж перше!');
 		continue;
 	}
 	break;
 }
-console.log(m);
+console.log(endCalc);
 
 const passEven = confirm('Пропускати парні числа?');
 
-for (let i = n; i <= m; i++){
+for (let i = startCalc; i <= endCalc; i++){
 	if (i%2===0 && passEven === false || i%2===1){
 		answer += i;
 	}
