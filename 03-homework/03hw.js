@@ -8,7 +8,7 @@ const getMaxDigit = function (startNum){
 	 };
 	 return answer;
 }
-document.writeln(`Функція №1: ${getMaxDigit(prompt('Функція №1: Функція №1Введіть число'))}<br>`);
+document.writeln(`Функція №1: ${getMaxDigit(prompt('Функція №1: Введіть число'))}<br>`);
 
 const power = function (base, exponent){
 	let answer = base;
