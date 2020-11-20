@@ -43,7 +43,7 @@ const randomMark = function(){
 
 const pairMark = function(pair){
 	const markedPair = [];
-	for (var i = 0; i < pair.length; i++) {
+	for (let i = 0; i < pair.length; i++) {
 		markedPair.push([pair[i][0],pair[i][1],randomMark()]);
 	}
 	return markedPair;
