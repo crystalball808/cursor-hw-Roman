@@ -1,7 +1,6 @@
 
 const arrToInt = function (arr){
-	arr = arr.map((number)=>parseInt(number));
-	return arr;
+	return arr.map((number)=>parseInt(number));
 }
 
 const getRandomArray = function (length, min, max){
@@ -30,8 +29,7 @@ const getModa = function (...numbers) {
 		iModa.push(counter);
 		return iModa;
 	},[]);
-	const maxCount = Math.max(...iModa);
-	const indexOfModa = iModa.findIndex((element) => element === maxCount);
+	const indexOfModa = iModa.findIndex((element) => element === Math.max(...iModa));
 	return numbers[indexOfModa];
 };
 
