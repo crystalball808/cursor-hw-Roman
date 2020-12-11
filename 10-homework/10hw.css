@@ -1,0 +1,25 @@
+.instrument {
+	background-color: black;
+	color: white;
+	display: table-cell;
+	width: 195px;
+	height: 130px;
+	padding: 5px;
+	border: 10px solid white;
+	font-size: 45px;
+	text-align: center;
+}
+
+#panel {
+	display: table;
+}
+
+#a {
+	background-color: black;
+	color: white;
+	height: 100;
+	width: 600;
+	border: 10px solid orange;
+	font-size: 45px;
+	text-align: center;
+}
