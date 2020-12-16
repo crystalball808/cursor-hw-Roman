@@ -8,6 +8,7 @@ const makeChinaChar = ()=>{
 
 async function getRandomChinese (length){
 	let chars ='';
+	const now = Date.now();
 	const asyncChinaChar = () =>new Promise((resolve)=>{
 			setTimeout(()=>{
 				resolve(makeChinaChar());
@@ -16,7 +17,7 @@ async function getRandomChinese (length){
 	for(let i = 0; i < length; i++){
 		chars += await asyncChinaChar();
 	}
-	return chars;
+	return `${chars} after ${Date.now()-now}ms`;
 }
 
 getRandomChinese(4)
