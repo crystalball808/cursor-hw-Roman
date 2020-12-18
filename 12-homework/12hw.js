@@ -13,6 +13,7 @@ function drawInfo(filmNumber){
 		
 		characters.map(e=>axios.get(e)
 			.then(res=>{
+				console.log(res.data);
 				const newRow = document.createElement('tr');
 				newRow.className = "people-table-row"
 				const nameCell = document.createElement('td');
@@ -25,7 +26,7 @@ function drawInfo(filmNumber){
 				newRow.append(dateCell);
 				const genderCell = document.createElement('td');
 				genderCell.className = "people-table-cell";
-				if (res.data.gender === "n/a"){
+				if (res.data.gender === "n/a" || res.data.gender === "none"){
 					genderCell.innerHTML =`<img src="pics/neither.png" height="50px">`;
 				}
 				else{
