@@ -45,7 +45,7 @@ document.querySelector('#show-people').addEventListener('submit',(e)=>{
 function drawPlanets(page){
 	const planetsTable = document.querySelector('#planets-table');
 	planetsTable.innerHTML = '';
-	axios.get(`http://swapi.dev/api/planets/?page=${page}`)
+	axios.get(`https://swapi.dev/api/planets/?page=${page}`)
 	.then(res=>{
 		res.data.results.map(e=>{
 			const planet = document.createElement('td');
