@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+	font-family: 'Anton';
+	font-size: 19px;
+}
+
+body{
+	background-image: url(pics/background.jpg);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+
+header{
+	text-align: center;
+	background-color: yellow;
+	font-size: 45px;
+}
+
+h1{
+	text-align: center;
+	background-color: yellow;
+	font-size: 45px;
+}
+
+table{
+	border: 2px solid black;
+	width: flex;
+	background-color: yellow;
+}
+
+.people-table-cell{
+	border: 1px solid black;
+	background-color: yellow;
+}
+
+.planet{
+	border: 1px solid black;
+}
