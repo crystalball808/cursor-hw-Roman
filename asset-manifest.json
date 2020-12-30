@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/cursor-hw-Roman/15/homework/static/css/main.bbc40df8.chunk.css",
-    "main.js": "/cursor-hw-Roman/15/homework/static/js/main.8d42857e.chunk.js",
-    "main.js.map": "/cursor-hw-Roman/15/homework/static/js/main.8d42857e.chunk.js.map",
-    "runtime-main.js": "/cursor-hw-Roman/15/homework/static/js/runtime-main.f9586a57.js",
-    "runtime-main.js.map": "/cursor-hw-Roman/15/homework/static/js/runtime-main.f9586a57.js.map",
-    "static/js/2.126611db.chunk.js": "/cursor-hw-Roman/15/homework/static/js/2.126611db.chunk.js",
-    "static/js/2.126611db.chunk.js.map": "/cursor-hw-Roman/15/homework/static/js/2.126611db.chunk.js.map",
-    "static/js/3.789390c1.chunk.js": "/cursor-hw-Roman/15/homework/static/js/3.789390c1.chunk.js",
-    "static/js/3.789390c1.chunk.js.map": "/cursor-hw-Roman/15/homework/static/js/3.789390c1.chunk.js.map",
-    "index.html": "/cursor-hw-Roman/15/homework/index.html",
-    "static/css/main.bbc40df8.chunk.css.map": "/cursor-hw-Roman/15/homework/static/css/main.bbc40df8.chunk.css.map",
-    "static/js/2.126611db.chunk.js.LICENSE.txt": "/cursor-hw-Roman/15/homework/static/js/2.126611db.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/cursor-hw-Roman/15/homework/static/media/logo.6ce24c58.svg"
+    "main.css": "/cursor-hw-Roman/15-homework/static/css/main.bbc40df8.chunk.css",
+    "main.js": "/cursor-hw-Roman/15-homework/static/js/main.8d42857e.chunk.js",
+    "main.js.map": "/cursor-hw-Roman/15-homework/static/js/main.8d42857e.chunk.js.map",
+    "runtime-main.js": "/cursor-hw-Roman/15-homework/static/js/runtime-main.4612a9c3.js",
+    "runtime-main.js.map": "/cursor-hw-Roman/15-homework/static/js/runtime-main.4612a9c3.js.map",
+    "static/js/2.126611db.chunk.js": "/cursor-hw-Roman/15-homework/static/js/2.126611db.chunk.js",
+    "static/js/2.126611db.chunk.js.map": "/cursor-hw-Roman/15-homework/static/js/2.126611db.chunk.js.map",
+    "static/js/3.789390c1.chunk.js": "/cursor-hw-Roman/15-homework/static/js/3.789390c1.chunk.js",
+    "static/js/3.789390c1.chunk.js.map": "/cursor-hw-Roman/15-homework/static/js/3.789390c1.chunk.js.map",
+    "index.html": "/cursor-hw-Roman/15-homework/index.html",
+    "static/css/main.bbc40df8.chunk.css.map": "/cursor-hw-Roman/15-homework/static/css/main.bbc40df8.chunk.css.map",
+    "static/js/2.126611db.chunk.js.LICENSE.txt": "/cursor-hw-Roman/15-homework/static/js/2.126611db.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/cursor-hw-Roman/15-homework/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9586a57.js",
+    "static/js/runtime-main.4612a9c3.js",
     "static/js/2.126611db.chunk.js",
     "static/css/main.bbc40df8.chunk.css",
     "static/js/main.8d42857e.chunk.js"
